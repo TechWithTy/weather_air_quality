@@ -1,0 +1,12 @@
+[project]
+name = "weather-air-quality-sdk"
+version = "0.1.0"
+description = "Google Maps Weather, Air Quality, and Pollen client wrappers"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "pydantic>=2.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["_tests"]
